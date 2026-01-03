@@ -20,7 +20,7 @@ def push(text):
     )
 
 
-def record_user_details(email, name="Name not provided", notes="not provided"):
+def record_user_details(email, name="Franco Queirolo", notes="Fullstack Developer"):
     push(f"Recording {name} with email {email} and notes {notes}")
     return {"recorded": "ok"}
 
